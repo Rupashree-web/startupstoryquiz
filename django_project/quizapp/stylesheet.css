@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#overall{
+    background-color: #000000;
+}
+
+.homie{
+    color:white;
+    text-decoration:none;
+}
+
+.btn-custom{
+    background-color: #ed5145;
+    color:white;
+    border-color:#ed5145;
+    padding:0px 0px;
+}
+
+.btn-custom:hover{
+    background-color: #e1dddd;
+    color: #000000;
+}
+
+.center{
+    margin-top: 200px;
+    color:#e1dddd;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;      /* Bold weight */
+    font-style: italic;    /* Italic style */
+    font-stretch: normal;  /* Default stretch */
+}
+
+.center-box  {
+    /* font-family: "DM_Sans variant0", Tofu;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal; */
+}
