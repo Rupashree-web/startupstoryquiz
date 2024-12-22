@@ -55,11 +55,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_project.urls'
 
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,"templates")],
+        'DIRS': [BASE_DIR / 'templates'],  # Make sure you have this line if you're using a global template folder
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,6 +70,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'django_project.wsgi.application'
 
