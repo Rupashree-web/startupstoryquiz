@@ -1,0 +1,21 @@
+/* General Body Styling */
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Custom Button Styling */
+.btn-custom-red {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+}
+
+.btn-custom-red:hover {
+    background-color: darkred;
+    color: white;
+}

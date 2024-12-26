@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#overall {
+    background-color: #000000; 
+}
+
+.homie {
+    color: white;
+    text-decoration: none;
+}
+.btn-custom {
+    background-color: #ed5145; 
+    color: white;
+    border-color: #ed5145;
+    padding: 5px 10px; 
+}
+
+.btn-custom:hover {
+    background-color: #e1dddd; 
+    color: #000000; 
+}
+
+.center {
+    margin-top: 200px; 
+    color: #e1dddd; 
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700; 
+    font-style: italic; 
+    font-stretch: normal; 
+}
+.center-box {
+    /* Uncomment these lines if specific styles are required for center-box */
+    /* font-family: 'DM Sans', sans-serif; */
+    /* font-weight: 400; */
+    /* font-style: normal; */
+    /* font-stretch: normal; */
+}
+ 
